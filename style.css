@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  #chec-menu {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  nav {
+    margin-left: 5px;
+    background-color: rgba(173, 216, 230, 1);
+    border-radius: 10px;
+    width: 200px;
+    height: 50%;
+    left: -355px;
+    position: absolute;
+    transition-duration: 1s;
+  }
+  
+  input[type="checkbox"]:checked ~ nav {
+    transform: translateX(355px);
+    transition-duration: 1s;
+  }
+  
+  .menu {
+    display: block;
+    padding: 20px 5px;
+  }
+  
+  header {
+    display: inline-flex;
+    gap: 150px;
+    margin-left: 475px;
+    font-size: 20px;
+  }
+  
+  .menu:hover {
+    background-color: skyblue;
+    color: green;
+    cursor: pointer;
+  }
+  
+  label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  ul {
+    top: 70px;
+    position: absolute;
+    width: 100%;
+  }
+  
+  h1 {
+    margin-top: 25px;
+    font-size: 50px;
+    margin-left: 600px;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  
+  .samsung {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  
+  .sam {
+    font-size: 25px;
+  }
+  
+  .img-sam {
+    height: 500px;
+    width: 700px;
+    margin-bottom: 25px;
+  }
+  
+  .button-sam {
+    margin-left: -702px;
+    color: #ffffff;
+    background-color: #007fff;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-sam:hover {
+    background-color: #0abab5;
+  }
+  
+  .apple {
+    margin-top: 100px;
+    margin-left: 1100px;
+  }
+  
+  .p-apple {
+    font-size: 25px;
+  }
+  
+  .img-apple {
+    margin-top: 15px;
+    margin-left: -140px;
+    height: 500px;
+    width: 800px;
+  }
+  
+  .button-apple {
+    align-items: center;
+    text-orientation: center;
+    display: flex-inline;
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: #007fff;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-apple:hover {
+    background-color: #0abab5;
+  }
+  
+  .xaiomi {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  
+  .p-xaiomi {
+    font-size: 25px;
+  }
+  
+  .img-xaiomi {
+    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-left: -50px;
+    height: 500px;
+    width: 600px;
+  }
+  
+  .button-xaiomi {
+    margin-left: -550px;
+    color: #ffffff;
+    background-color: #007fff;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-xaiomi:hover {
+    background-color: #0abab5;
+  }
+  
+  .motorola {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 1100px;
+  }
+  
+  .p-motorola {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  
+  .img-motorola {
+    margin-bottom: 55px;
+    margin-left: -40px;
+    height: 400px;
+    width: 700px;
+  }
+  
+  .button-motorola {
+    margin-left: -660px;
+    color: #ffffff;
+    background-color: #007fff;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-motorola:hover {
+    background-color: #0abab5;
+  }
+  
+  @media screen and (max-width: 1400px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    header {
+      display: inline-flex;
+      gap: 150px;
+      margin-left: 200px;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  
+    .menu:hover {
+      color: green;
+      cursor: pointer;
+    }
+  
+    h1 {
+      margin-top: 15px;
+      font-size: 50px;
+      margin-left: 370px;
+      width: 600px;
+      text-align: center;
+      align-items: center;
+    }
+  
+    h2 {
+      margin-top: 50px;
+      margin-left: 30px;
+      font-size: 30px;
+    }
+  
+    .samsung {
+      margin-top: 60px;
+      margin-left: 60px;
+    }
+  
+    .sam {
+      font-size: 25px;
+    }
+  
+    .img-sam {
+      height: 350px;
+      width: 500px;
+      margin-bottom: 30px;
+      margin-left: -20px;
+    }
+  
+    .button-sam {
+      margin-left: -482px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 30px;
+      width: 120px;
+      border-radius: 30px;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .button-sam:hover {
+      background-color: #0abab5;
+    }
+  
+    .apple {
+      margin-top: 60px;
+      margin-left: 900px;
+    }
+  
+    .p-apple {
+      margin-left: -50px;
+      margin-bottom: -30px;
+      font-size: 25px;
+    }
+  
+    .img-apple {
+      height: 370px;
+      width: 500px;
+      margin-bottom: 50px;
+    }
+  
+    .button-apple {
+      align-items: center;
+      text-orientation: center;
+      margin-top: 40px;
+      margin-left: -420px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 30px;
+      width: 120px;
+      border-radius: 30px;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .button-apple:hover {
+      background-color: #0abab5;
+    }
+  
+    .xaiomi {
+      margin-top: 60px;
+      margin-left: 60px;
+    }
+  
+    .p-xaiomi {
+      font-size: 25px;
+    }
+  
+    .img-xaiomi {
+      height: 400px;
+      width: 470px;
+    }
+  
+    .button-xaiomi {
+      margin-top: -25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 3px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 30px;
+      width: 120px;
+      border-radius: 30px;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .button-xaiomi:hover {
+      background-color: #0abab5;
+    }
+  
+    .motorola {
+      display: inline-block;
+      margin-top: 60px;
+      margin-left: 850px;
+    }
+  
+    .p-motorola {
+      font-size: 25px;
+    }
+  
+    .img-motorola {
+      margin-top: -5px;
+      margin-bottom: 45px;
+      height: 350px;
+      width: 500px;
+    }
+  
+    .button-motorola {
+      margin-left: -460px;
+      margin-bottom: 20px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 30px;
+      width: 120px;
+      border-radius: 30px;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .button-motorola:hover {
+      background-color: #0abab5;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    /*header {
+      display: inline-flex;
+      gap: 100px;
+      margin-left: 135px;
+      margin-top: 40px;
+      font-size: 30px;
+    }
+  */
+  
+    h1 {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-left: 50px;
+      height: 200px;
+      width: 300px;
+      text-align: center;
+      align-items: center;
+    }
+  
+    h2 {
+      text-align: center;
+      height: 50px;
+      width: 400px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 10px;
+      font-size: 25px;
+    }
+  
+    .samsung {
+      margin-top: 60px;
+      margin-left: 15px;
+    }
+  
+    .sam {
+      font-size: 35px;
+      margin-left: 40px;
+    }
+  
+    .img-sam {
+      margin-top: 20px;
+      height: 280px;
+      width: 380px;
+    }
+  
+    .button-sam {
+      margin-left: 35px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 50px;
+      width: 250px;
+      border-radius: 30px;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 120px;
+    }
+  
+    .button-sam:hover {
+      background-color: #0abab5;
+    }
+  
+    .apple {
+      margin-top: 60px;
+      margin-left: 15px;
+    }
+  
+    .p-apple {
+      font-size: 35px;
+      margin-left: 40px;
+    }
+  
+    .img-apple {
+      margin-top: 20px;
+      margin-left: -15px;
+      height: 250px;
+      width: 350px;
+    }
+  
+    .button-apple {
+      align-items: center;
+      text-orientation: center;
+      margin-top: 1px;
+      margin-bottom: 120px;
+      margin-left: 35px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 50px;
+      width: 250px;
+      border-radius: 30px;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .button-apple:hover {
+      background-color: #0abab5;
+    }
+  
+    .xaiomi {
+      margin-top: 60px;
+      margin-left: 15px;
+    }
+  
+    .p-xaiomi {
+      font-size: 35px;
+      margin-left: 40px;
+    }
+  
+    .img-xaiomi {
+      margin-top: 20px;
+      margin-left: 5px;
+      height: 250px;
+      width: 350px;
+    }
+  
+    .button-xaiomi {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 40px;
+      margin-top: -5px;
+      margin-bottom: 120px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 50px;
+      width: 250px;
+      border-radius: 30px;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .button-xaiomi:hover {
+      background-color: #0abab5;
+    }
+  
+    .motorola {
+      margin-top: 60px;
+      margin-left: 15px;
+    }
+  
+    .p-motorola {
+      font-size: 35px;
+      margin-left: 40px;
+    }
+  
+    .img-motorola {
+      margin-top: 20px;
+      margin-left: 5px;
+      height: 250px;
+      width: 350px;
+    }
+  
+    .button-motorola {
+      margin-left: 40px;
+      margin-top: -5px;
+      margin-bottom: 40px;
+      color: #ffffff;
+      background-color: #007fff;
+      height: 50px;
+      width: 250px;
+      border-radius: 30px;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .button-motorola:hover {
+      background-color: #0abab5;
+    }
+  }
+  
